@@ -5,8 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Multiplication Game</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body> </body>
+  <body>
+    <form class="form" id="form">
+      <h4 class="score" id="score">SCORE:</h4>
+      <h1 class="question" id="question">What is 2 time 2 ?</h1>
+      <div class="input-wrapper">
+        <input
+          type="text"
+          class="input"
+          id="input"
+          placeholder="answer"
+          autocomplete="off"
+          autofocus
+        />
+        <button type="submit" class="btn" id="btn">Submit answer</button>
+      </div>
+    </form>
+  </body>
   <script src="script.js"></script>
 </html>
